@@ -1,0 +1,22 @@
+BST,random,100,0.024,0.027,0.023
+HashTable,random,100,0.007,0.008,0.004
+HashTable (bad hash, no resize),random,100,0.019,0.024,0.049
+BST,sorted,100,0.018,0.020,0.012
+HashTable,sorted,100,0.011,0.012,0.008
+HashTable (bad hash, no resize),sorted,100,0.015,0.022,0.010
+n=100 BST height: random=13, sorted=100
+BST,random,1000,0.118,0.089,0.094
+HashTable,random,1000,0.102,0.076,0.064
+HashTable (bad hash, no resize),random,1000,1.369,0.931,0.510
+BST,sorted,1000,0.921,1.351,0.640
+HashTable,sorted,1000,0.044,0.020,0.010
+HashTable (bad hash, no resize),sorted,1000,0.976,0.918,0.464
+n=1000 BST height: random=21, sorted=1000
+BST,random,10000,1.263,0.652,0.708
+HashTable,random,10000,0.325,0.110,0.089
+HashTable (bad hash, no resize),random,10000,90.549,90.629,62.441
+BST,sorted,10000,108.670,129.874,94.251
+HashTable,sorted,10000,0.337,0.099,0.067
+HashTable (bad hash, no resize),sorted,10000,90.320,89.837,62.104
+n=10000 BST height: random=29, sorted=10000
+Saved results/results.csv
